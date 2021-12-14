@@ -25,3 +25,26 @@
 # write(s) Write string s to the file and return the number of characters written
 
 # writelines(lines) Write a lines to the file.
+
+def a_void_function():
+    a = 1
+    b = 2
+    c = 3
+    return c * b
+
+
+data = a_void_function()
+print(data)
+
+
+# break
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)
+
+# continue
+for i in range(1, 8):
+    if i == 5:
+        continue
+    print(i)
